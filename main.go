@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/komoe-monywa/uri-to-json/pkgs/cmd"
-	_ "github.com/komoe-monywa/uri-to-json/pkgs/outbound/sing"
-	_ "github.com/komoe-monywa/uri-to-json/pkgs/outbound/xray"
-	_ "github.com/komoe-monywa/uri-to-json/pkgs/parser"
+	"github.com/komoe-monywa/vpnparse/pkgs/cmd"
+	_ "github.com/komoe-monywa/vpnparse/pkgs/outbound/sing"
+	_ "github.com/komoe-monywa/vpnparse/pkgs/outbound/xray"
+	_ "github.com/komoe-monywa/vpnparse/pkgs/parser"
 )
 
 func main() {
